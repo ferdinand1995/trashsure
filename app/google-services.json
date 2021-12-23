@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "28384483001",
+    "project_id": "trashsure-6f73f",
+    "storage_bucket": "trashsure-6f73f.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:28384483001:android:e7c1741cbb9a048190ad68",
+        "android_client_info": {
+          "package_name": "com.creospace.trashsure"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "28384483001-thecium2jfc4est4jpn0rtda7g1605st.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB1UFzH6mCAI55saNK45coCI4eFWIsfE74"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "28384483001-thecium2jfc4est4jpn0rtda7g1605st.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
