@@ -32,21 +32,16 @@
   </a>
 
   <h3 align="center">Trashsure</h3> 
-  > Give me your, give me your, give me your **Attention**, baby
-  > I gotta tell you a little something about yourself
-  > **Trashsure**, that is what this project are.
+  > 
+  > 
+ 
 
   <p align="center">
-    An awesome README template to jumpstart your projects!
-    <br />
-    <a href="https://github.com/othneildrew/Best-README-Template"><strong>Explore the docs »</strong></a>
-    <br />
-    <br />
-    <a href="https://github.com/othneildrew/Best-README-Template">View Demo</a>
-    ·
-    <a href="https://github.com/othneildrew/Best-README-Template/issues">Report Bug</a>
-    ·
-    <a href="https://github.com/othneildrew/Best-README-Template/issues">Request Feature</a>
+  Give me your, give me your, give me your <b>Attention</b>, baby  
+  <br />  
+  I gotta tell you a little something about yourself
+  <br />
+  <b>Trashsure</b>, that is what this project are.
   </p>
 </p>
 
