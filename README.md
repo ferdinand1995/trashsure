@@ -31,7 +31,10 @@
     <img src="images/logo.png" alt="Logo" width="80" height="80">
   </a>
 
-  <h3 align="center">Best-README-Template</h3>
+  <h3 align="center">Trashsure</h3> 
+  > Give me your, give me your, give me your **Attention**, baby
+  > I gotta tell you a little something about yourself
+  > **Trashsure**, that is what this project are.
 
   <p align="center">
     An awesome README template to jumpstart your projects!
