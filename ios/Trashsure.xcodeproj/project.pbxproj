@@ -18,7 +18,6 @@
 		B10A8A742788BF230075DAC9 /* TrashsureUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B10A8A732788BF230075DAC9 /* TrashsureUITests.swift */; };
 		B10A8A762788BF230075DAC9 /* TrashsureUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B10A8A752788BF230075DAC9 /* TrashsureUITestsLaunchTests.swift */; };
 		B10A8A83278989630075DAC9 /* AdvancedPageControlView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B10A8A82278989630075DAC9 /* AdvancedPageControlView.swift */; };
-		B10A8A85278989D60075DAC9 /* InfiniteScrollingDrawer.swift in Sources */ = {isa = PBXBuildFile; fileRef = B10A8A84278989D60075DAC9 /* InfiniteScrollingDrawer.swift */; };
 		B10A8A9727898A1B0075DAC9 /* JumpDrawer.swift in Sources */ = {isa = PBXBuildFile; fileRef = B10A8A8927898A190075DAC9 /* JumpDrawer.swift */; };
 		B10A8AA027898A1B0075DAC9 /* DrawerProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = B10A8A9227898A1B0075DAC9 /* DrawerProtocol.swift */; };
 		B10A8AA327898C560075DAC9 /* UIColor+Utils.swift in Sources */ = {isa = PBXBuildFile; fileRef = B10A8AA227898C560075DAC9 /* UIColor+Utils.swift */; };
@@ -464,7 +463,6 @@
 			files = (
 				B10A8AA027898A1B0075DAC9 /* DrawerProtocol.swift in Sources */,
 				B10A8A572788BF1E0075DAC9 /* OnBoardingVC.swift in Sources */,
-				B10A8A85278989D60075DAC9 /* InfiniteScrollingDrawer.swift in Sources */,
 				B10A8AA327898C560075DAC9 /* UIColor+Utils.swift in Sources */,
 				B10A8A9727898A1B0075DAC9 /* JumpDrawer.swift in Sources */,
 				B10A8A532788BF1E0075DAC9 /* AppDelegate.swift in Sources */,

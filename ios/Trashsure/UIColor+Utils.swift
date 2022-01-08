@@ -7,7 +7,7 @@
 //
 
 import UIKit
-
+/*
 public func addColor(_ color1: UIColor, with color2: UIColor) -> UIColor {
     var (r1, g1, b1, a1) = (CGFloat(0), CGFloat(0), CGFloat(0), CGFloat(0))
     var (r2, g2, b2, a2) = (CGFloat(0), CGFloat(0), CGFloat(0), CGFloat(0))
@@ -31,7 +31,7 @@ public func + (color1: UIColor, color2: UIColor) -> UIColor {
 
 public func * (color: UIColor, multiplier: Double) -> UIColor {
     return multiplyColor(color, by: CGFloat(multiplier))
-}
+}*/
 
 extension UIColor {
     convenience init?(hex string: String) {

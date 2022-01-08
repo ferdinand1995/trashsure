@@ -17,7 +17,9 @@ class OnBoardView: UIView {
     }()
     
     let skipButton: UIButton = {
-       let button = UIButton()
+        let button = UIButton()
+        button.setTitle("Skip", for: .normal)
+        button.setTitleColor(UIColor(hex: "#7A7A7B"), for: .normal)
         return button
     }()
     
@@ -69,11 +71,16 @@ class OnBoardView: UIView {
             make.width.height.equalTo(88)
         }
         
-        collectionView.snp.makeConstraints { make in
+        skipButton.snp.makeConstraints { make in
+            make.trailing.equalToSuperview().offset(-32)
             make.top.equalTo(safeAreaLayoutGuide.snp.top)
+        }
+        
+        collectionView.snp.makeConstraints { make in
+            make.top.equalTo(skipButton.snp.bottom)
             make.leading.equalToSuperview()
             make.trailing.equalToSuperview()
-            make.bottom.equalTo(pageControl.snp.top)
+            make.bottom.equalTo(roundedButton.snp.top)
         }
     }
 }

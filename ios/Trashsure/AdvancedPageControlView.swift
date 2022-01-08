@@ -22,7 +22,7 @@ public class AdvancedPageControlView: UIView {
             drawer.numberOfPages = val
         } }
 
-    var drawer: AdvancedPageControlDraw = InfiniteScrollingDrawer()
+    var drawer: AdvancedPageControlDraw = JumpDrawer()
 
     init() {
         super.init(frame: .zero)
