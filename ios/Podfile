@@ -4,17 +4,16 @@ platform :ios, '14.7'
 target 'Trashsure' do
   # Comment the next line if you don't want to use dynamic frameworks
   use_frameworks!
-
+  inhibit_all_warnings!
   # Pods for Trashsure
   pod 'SnapKit', '~> 5.0.0'
-
+  
   target 'TrashsureTests' do
     inherit! :search_paths
     # Pods for testing
   end
-
+  
   target 'TrashsureUITests' do
     # Pods for testing
   end
-
 end

@@ -36,7 +36,7 @@ open class AdvancedPageControlDrawerParentWithIndicator: AdvancedPageControlDraw
     {
         self.indicatorBorderColor = indicatorBorderColor
         self.indicatorBorderWidth = indicatorBorderWidth
-        self.indicatorColor = indicatorColor!
+        self.indicatorColor = indicatorColor ?? .white
         super.init(numberOfPages: numberOfPages,
             height: height,
             width: width,
@@ -78,7 +78,7 @@ open class AdvancedPageControlDrawerParent {
         self.space = space!
         radius = raduis!
         self.currentItem = currentItem!
-        self.dotsColor = dotsColor!
+        self.dotsColor = dotsColor ?? .lightGray
         self.width = width!
         size = height!
         self.isBordered = isBordered

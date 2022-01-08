@@ -78,6 +78,9 @@
 		B10A8AAA278993FC0075DAC9 /* Poppins-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Poppins-Regular.ttf"; sourceTree = "<group>"; };
 		B10A8AAB278993FC0075DAC9 /* Poppins-Medium.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Poppins-Medium.ttf"; sourceTree = "<group>"; };
 		B10A8AAC278993FD0075DAC9 /* Poppins-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Poppins-Bold.ttf"; sourceTree = "<group>"; };
+		B10A8AB32789C70C0075DAC9 /* HomeTabBarController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = HomeTabBarController.swift; path = "../../../../../working/source_code/diabetic-educator-ios/Diabetic Educator/Modules/Home/HomeTabBarController.swift"; sourceTree = "<group>"; };
+		B10A8AB52789CA8D0075DAC9 /* UIViewController+Utils.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIViewController+Utils.swift"; sourceTree = "<group>"; };
+		B10A8AB72789D1250075DAC9 /* PatientsVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PatientsVC.swift; sourceTree = "<group>"; };
 		B7AF3A5815214B29A1F96E6D /* Pods-Trashsure.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Trashsure.release.xcconfig"; path = "Target Support Files/Pods-Trashsure/Pods-Trashsure.release.xcconfig"; sourceTree = "<group>"; };
 		DE2C9BCFD5DC058B97959ED5 /* Pods_Trashsure.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Trashsure.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		F67C8C65194C2714DFBD1ABC /* Pods_Trashsure_TrashsureUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Trashsure_TrashsureUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -167,9 +170,12 @@
 				B10A8AA227898C560075DAC9 /* UIColor+Utils.swift */,
 				B10A8A9227898A1B0075DAC9 /* DrawerProtocol.swift */,
 				B10A8A84278989D60075DAC9 /* InfiniteScrollingDrawer.swift */,
+				B10A8AB32789C70C0075DAC9 /* HomeTabBarController.swift */,
+				B10A8AB52789CA8D0075DAC9 /* UIViewController+Utils.swift */,
 				B10A8AA6278993B00075DAC9 /* Resources */,
 				B10A8A8927898A190075DAC9 /* JumpDrawer.swift */,
 				B10A8A82278989630075DAC9 /* AdvancedPageControlView.swift */,
+				B10A8AB72789D1250075DAC9 /* PatientsVC.swift */,
 			);
 			path = Trashsure;
 			sourceTree = "<group>";

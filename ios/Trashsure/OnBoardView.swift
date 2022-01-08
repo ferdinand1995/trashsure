@@ -21,10 +21,11 @@ class OnBoardView: UIView {
         return button
     }()
     
-    let pageControl =  AdvancedPageControlView()
+    var pageControl =  AdvancedPageControlView()
     
     let roundedButton: UIButton = {
         let button = UIButton()
+        button.backgroundColor = UIColor(hex: "#79BCB8")
         return button
     }()
     
@@ -58,7 +59,8 @@ class OnBoardView: UIView {
         pageControl.snp.makeConstraints { make in
             make.leading.equalToSuperview()
             make.bottom.equalTo(safeAreaLayoutGuide.snp.bottom)
-            make.trailing.equalTo(roundedButton.snp.leading).offset(-32)
+            make.width.equalTo(112)
+            make.height.equalTo(80)
         }
         
         roundedButton.snp.makeConstraints { make in
