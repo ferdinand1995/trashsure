@@ -29,14 +29,12 @@
 <p align="center">
     <img src="images/logo_trashsure.png" alt="Logo" width="200" height="64">
 
-  <h3 align="center">Trashsure</h3> 
+  <h3 align="center">Welcome Earth Caretaker</h3> 
 
   <p align="center">
-  Give me your, give me your, give me your <b>Attention</b>, baby  
-  <br />  
-  I gotta tell you a little something about yourself
-  <br />
-  <b>Trashsure</b>, that is what this project are.
+    Why not contribute to save the earth and earn some <b>money</b> by it.
+    <br>Introduce</br>
+  <b>Trashsure</b> your best companion for living.
   </p>
 </p>
 
