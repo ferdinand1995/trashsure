@@ -27,7 +27,7 @@
 <!-- PROJECT LOGO -->
 <br />
 <p align="center">
-    <img src="images/logo.png" alt="Logo" width="80" height="80">
+    <img src="images/logo_trashsure.png" alt="Logo" width="200" height="64">
 
   <h3 align="center">Trashsure</h3> 
 
