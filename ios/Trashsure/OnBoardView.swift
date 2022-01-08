@@ -1,0 +1,78 @@
+//
+//  OnBoardView.swift
+//  Trashsure
+//
+//  Created by Ferdinand on 08/01/22.
+//
+
+import UIKit
+import SnapKit
+
+class OnBoardView: UIView {
+    let backgroundView = UIView()
+    
+    let collectionView: UICollectionView = {
+        let collectionView = UICollectionView(frame: .zero, collectionViewLayout: UICollectionViewFlowLayout())
+        return collectionView
+    }()
+    
+    let skipButton: UIButton = {
+       let button = UIButton()
+        return button
+    }()
+    
+    let pageControl =  AdvancedPageControlView()
+    
+    let roundedButton: UIButton = {
+        let button = UIButton()
+        return button
+    }()
+    
+    override init(frame: CGRect) {
+        super.init(frame: frame)
+        initUI()
+    }
+    
+    required init?(coder: NSCoder) {
+        fatalError("init(coder:) has not been implemented")
+    }
+    
+    override class var requiresConstraintBasedLayout: Bool {
+        return true
+    }
+    
+    private func initUI() {
+        addSubview(backgroundView)
+        addSubview(collectionView)
+        addSubview(skipButton)
+        addSubview(pageControl)
+        addSubview(roundedButton)
+        initLayout()
+    }
+    
+    private func initLayout() {
+        backgroundView.snp.makeConstraints { make in
+            make.edges.equalToSuperview()
+        }
+        
+        pageControl.snp.makeConstraints { make in
+            make.leading.equalToSuperview()
+            make.bottom.equalTo(safeAreaLayoutGuide.snp.bottom)
+            make.trailing.equalTo(roundedButton.snp.leading).offset(-32)
+        }
+        
+        roundedButton.snp.makeConstraints { make in
+            make.trailing.equalToSuperview().offset(-32)
+            make.bottom.equalTo(safeAreaLayoutGuide.snp.bottom).offset(-32)
+            make.width.height.equalTo(88)
+        }
+        
+        collectionView.snp.makeConstraints { make in
+            make.top.equalTo(safeAreaLayoutGuide.snp.top)
+            make.leading.equalToSuperview()
+            make.trailing.equalToSuperview()
+            make.bottom.equalTo(pageControl.snp.top)
+        }
+    }
+}
+

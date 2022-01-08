@@ -22,6 +22,12 @@
 		B10A8A9727898A1B0075DAC9 /* JumpDrawer.swift in Sources */ = {isa = PBXBuildFile; fileRef = B10A8A8927898A190075DAC9 /* JumpDrawer.swift */; };
 		B10A8AA027898A1B0075DAC9 /* DrawerProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = B10A8A9227898A1B0075DAC9 /* DrawerProtocol.swift */; };
 		B10A8AA327898C560075DAC9 /* UIColor+Utils.swift in Sources */ = {isa = PBXBuildFile; fileRef = B10A8AA227898C560075DAC9 /* UIColor+Utils.swift */; };
+		B10A8AA5278992C70075DAC9 /* OnBoardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B10A8AA4278992C70075DAC9 /* OnBoardView.swift */; };
+		B10A8AA8278993D60075DAC9 /* Alata-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = B10A8AA7278993D60075DAC9 /* Alata-Regular.ttf */; };
+		B10A8AAD278993FD0075DAC9 /* Poppins-SemiBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = B10A8AA9278993FC0075DAC9 /* Poppins-SemiBold.ttf */; };
+		B10A8AAE278993FD0075DAC9 /* Poppins-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = B10A8AAA278993FC0075DAC9 /* Poppins-Regular.ttf */; };
+		B10A8AAF278993FD0075DAC9 /* Poppins-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = B10A8AAB278993FC0075DAC9 /* Poppins-Medium.ttf */; };
+		B10A8AB0278993FD0075DAC9 /* Poppins-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = B10A8AAC278993FD0075DAC9 /* Poppins-Bold.ttf */; };
 		E6DC279FD4285630A3B4251F /* Pods_TrashsureTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9DC2C6DB95000058D2E2AF6B /* Pods_TrashsureTests.framework */; };
 /* End PBXBuildFile section */
 
@@ -66,6 +72,12 @@
 		B10A8A8927898A190075DAC9 /* JumpDrawer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JumpDrawer.swift; sourceTree = "<group>"; };
 		B10A8A9227898A1B0075DAC9 /* DrawerProtocol.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DrawerProtocol.swift; sourceTree = "<group>"; };
 		B10A8AA227898C560075DAC9 /* UIColor+Utils.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIColor+Utils.swift"; sourceTree = "<group>"; };
+		B10A8AA4278992C70075DAC9 /* OnBoardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnBoardView.swift; sourceTree = "<group>"; };
+		B10A8AA7278993D60075DAC9 /* Alata-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Alata-Regular.ttf"; sourceTree = "<group>"; };
+		B10A8AA9278993FC0075DAC9 /* Poppins-SemiBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Poppins-SemiBold.ttf"; sourceTree = "<group>"; };
+		B10A8AAA278993FC0075DAC9 /* Poppins-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Poppins-Regular.ttf"; sourceTree = "<group>"; };
+		B10A8AAB278993FC0075DAC9 /* Poppins-Medium.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Poppins-Medium.ttf"; sourceTree = "<group>"; };
+		B10A8AAC278993FD0075DAC9 /* Poppins-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Poppins-Bold.ttf"; sourceTree = "<group>"; };
 		B7AF3A5815214B29A1F96E6D /* Pods-Trashsure.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Trashsure.release.xcconfig"; path = "Target Support Files/Pods-Trashsure/Pods-Trashsure.release.xcconfig"; sourceTree = "<group>"; };
 		DE2C9BCFD5DC058B97959ED5 /* Pods_Trashsure.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Trashsure.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		F67C8C65194C2714DFBD1ABC /* Pods_Trashsure_TrashsureUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Trashsure_TrashsureUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -150,12 +162,12 @@
 				B10A8A522788BF1E0075DAC9 /* AppDelegate.swift */,
 				B10A8A542788BF1E0075DAC9 /* SceneDelegate.swift */,
 				B10A8A562788BF1E0075DAC9 /* OnBoardingVC.swift */,
-				B10A8A5B2788BF220075DAC9 /* Assets.xcassets */,
-				B10A8A5D2788BF220075DAC9 /* LaunchScreen.storyboard */,
+				B10A8AA4278992C70075DAC9 /* OnBoardView.swift */,
 				B10A8A602788BF220075DAC9 /* Info.plist */,
 				B10A8AA227898C560075DAC9 /* UIColor+Utils.swift */,
 				B10A8A9227898A1B0075DAC9 /* DrawerProtocol.swift */,
 				B10A8A84278989D60075DAC9 /* InfiniteScrollingDrawer.swift */,
+				B10A8AA6278993B00075DAC9 /* Resources */,
 				B10A8A8927898A190075DAC9 /* JumpDrawer.swift */,
 				B10A8A82278989630075DAC9 /* AdvancedPageControlView.swift */,
 			);
@@ -177,6 +189,28 @@
 				B10A8A752788BF230075DAC9 /* TrashsureUITestsLaunchTests.swift */,
 			);
 			path = TrashsureUITests;
+			sourceTree = "<group>";
+		};
+		B10A8AA6278993B00075DAC9 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				B10A8A5B2788BF220075DAC9 /* Assets.xcassets */,
+				B10A8A5D2788BF220075DAC9 /* LaunchScreen.storyboard */,
+				B10A8AB1278994890075DAC9 /* Fonts */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		B10A8AB1278994890075DAC9 /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				B10A8AA7278993D60075DAC9 /* Alata-Regular.ttf */,
+				B10A8AAC278993FD0075DAC9 /* Poppins-Bold.ttf */,
+				B10A8AAB278993FC0075DAC9 /* Poppins-Medium.ttf */,
+				B10A8AAA278993FC0075DAC9 /* Poppins-Regular.ttf */,
+				B10A8AA9278993FC0075DAC9 /* Poppins-SemiBold.ttf */,
+			);
+			path = Fonts;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -288,8 +322,13 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B10A8AA8278993D60075DAC9 /* Alata-Regular.ttf in Resources */,
+				B10A8AAD278993FD0075DAC9 /* Poppins-SemiBold.ttf in Resources */,
+				B10A8AB0278993FD0075DAC9 /* Poppins-Bold.ttf in Resources */,
 				B10A8A5F2788BF220075DAC9 /* LaunchScreen.storyboard in Resources */,
+				B10A8AAF278993FD0075DAC9 /* Poppins-Medium.ttf in Resources */,
 				B10A8A5C2788BF220075DAC9 /* Assets.xcassets in Resources */,
+				B10A8AAE278993FD0075DAC9 /* Poppins-Regular.ttf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -425,6 +464,7 @@
 				B10A8A532788BF1E0075DAC9 /* AppDelegate.swift in Sources */,
 				B10A8A552788BF1E0075DAC9 /* SceneDelegate.swift in Sources */,
 				B10A8A83278989630075DAC9 /* AdvancedPageControlView.swift in Sources */,
+				B10A8AA5278992C70075DAC9 /* OnBoardView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
