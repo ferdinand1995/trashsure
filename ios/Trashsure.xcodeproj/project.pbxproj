@@ -11,13 +11,17 @@
 		A7FE3A2E5AF51A84B6E866FA /* Pods_Trashsure.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DE2C9BCFD5DC058B97959ED5 /* Pods_Trashsure.framework */; };
 		B10A8A532788BF1E0075DAC9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B10A8A522788BF1E0075DAC9 /* AppDelegate.swift */; };
 		B10A8A552788BF1E0075DAC9 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B10A8A542788BF1E0075DAC9 /* SceneDelegate.swift */; };
-		B10A8A572788BF1E0075DAC9 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B10A8A562788BF1E0075DAC9 /* ViewController.swift */; };
-		B10A8A5A2788BF1E0075DAC9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B10A8A582788BF1E0075DAC9 /* Main.storyboard */; };
+		B10A8A572788BF1E0075DAC9 /* OnBoardingVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = B10A8A562788BF1E0075DAC9 /* OnBoardingVC.swift */; };
 		B10A8A5C2788BF220075DAC9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B10A8A5B2788BF220075DAC9 /* Assets.xcassets */; };
 		B10A8A5F2788BF220075DAC9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B10A8A5D2788BF220075DAC9 /* LaunchScreen.storyboard */; };
 		B10A8A6A2788BF230075DAC9 /* TrashsureTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B10A8A692788BF230075DAC9 /* TrashsureTests.swift */; };
 		B10A8A742788BF230075DAC9 /* TrashsureUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B10A8A732788BF230075DAC9 /* TrashsureUITests.swift */; };
 		B10A8A762788BF230075DAC9 /* TrashsureUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B10A8A752788BF230075DAC9 /* TrashsureUITestsLaunchTests.swift */; };
+		B10A8A83278989630075DAC9 /* AdvancedPageControlView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B10A8A82278989630075DAC9 /* AdvancedPageControlView.swift */; };
+		B10A8A85278989D60075DAC9 /* InfiniteScrollingDrawer.swift in Sources */ = {isa = PBXBuildFile; fileRef = B10A8A84278989D60075DAC9 /* InfiniteScrollingDrawer.swift */; };
+		B10A8A9727898A1B0075DAC9 /* JumpDrawer.swift in Sources */ = {isa = PBXBuildFile; fileRef = B10A8A8927898A190075DAC9 /* JumpDrawer.swift */; };
+		B10A8AA027898A1B0075DAC9 /* DrawerProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = B10A8A9227898A1B0075DAC9 /* DrawerProtocol.swift */; };
+		B10A8AA327898C560075DAC9 /* UIColor+Utils.swift in Sources */ = {isa = PBXBuildFile; fileRef = B10A8AA227898C560075DAC9 /* UIColor+Utils.swift */; };
 		E6DC279FD4285630A3B4251F /* Pods_TrashsureTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9DC2C6DB95000058D2E2AF6B /* Pods_TrashsureTests.framework */; };
 /* End PBXBuildFile section */
 
@@ -48,8 +52,7 @@
 		B10A8A4F2788BF1E0075DAC9 /* Trashsure.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Trashsure.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B10A8A522788BF1E0075DAC9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		B10A8A542788BF1E0075DAC9 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		B10A8A562788BF1E0075DAC9 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		B10A8A592788BF1E0075DAC9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		B10A8A562788BF1E0075DAC9 /* OnBoardingVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnBoardingVC.swift; sourceTree = "<group>"; };
 		B10A8A5B2788BF220075DAC9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		B10A8A5E2788BF220075DAC9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		B10A8A602788BF220075DAC9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -58,6 +61,11 @@
 		B10A8A6F2788BF230075DAC9 /* TrashsureUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TrashsureUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		B10A8A732788BF230075DAC9 /* TrashsureUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrashsureUITests.swift; sourceTree = "<group>"; };
 		B10A8A752788BF230075DAC9 /* TrashsureUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrashsureUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		B10A8A82278989630075DAC9 /* AdvancedPageControlView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AdvancedPageControlView.swift; sourceTree = "<group>"; };
+		B10A8A84278989D60075DAC9 /* InfiniteScrollingDrawer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = InfiniteScrollingDrawer.swift; sourceTree = "<group>"; };
+		B10A8A8927898A190075DAC9 /* JumpDrawer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JumpDrawer.swift; sourceTree = "<group>"; };
+		B10A8A9227898A1B0075DAC9 /* DrawerProtocol.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DrawerProtocol.swift; sourceTree = "<group>"; };
+		B10A8AA227898C560075DAC9 /* UIColor+Utils.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIColor+Utils.swift"; sourceTree = "<group>"; };
 		B7AF3A5815214B29A1F96E6D /* Pods-Trashsure.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Trashsure.release.xcconfig"; path = "Target Support Files/Pods-Trashsure/Pods-Trashsure.release.xcconfig"; sourceTree = "<group>"; };
 		DE2C9BCFD5DC058B97959ED5 /* Pods_Trashsure.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Trashsure.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		F67C8C65194C2714DFBD1ABC /* Pods_Trashsure_TrashsureUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Trashsure_TrashsureUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -141,11 +149,15 @@
 			children = (
 				B10A8A522788BF1E0075DAC9 /* AppDelegate.swift */,
 				B10A8A542788BF1E0075DAC9 /* SceneDelegate.swift */,
-				B10A8A562788BF1E0075DAC9 /* ViewController.swift */,
-				B10A8A582788BF1E0075DAC9 /* Main.storyboard */,
+				B10A8A562788BF1E0075DAC9 /* OnBoardingVC.swift */,
 				B10A8A5B2788BF220075DAC9 /* Assets.xcassets */,
 				B10A8A5D2788BF220075DAC9 /* LaunchScreen.storyboard */,
 				B10A8A602788BF220075DAC9 /* Info.plist */,
+				B10A8AA227898C560075DAC9 /* UIColor+Utils.swift */,
+				B10A8A9227898A1B0075DAC9 /* DrawerProtocol.swift */,
+				B10A8A84278989D60075DAC9 /* InfiniteScrollingDrawer.swift */,
+				B10A8A8927898A190075DAC9 /* JumpDrawer.swift */,
+				B10A8A82278989630075DAC9 /* AdvancedPageControlView.swift */,
 			);
 			path = Trashsure;
 			sourceTree = "<group>";
@@ -278,7 +290,6 @@
 			files = (
 				B10A8A5F2788BF220075DAC9 /* LaunchScreen.storyboard in Resources */,
 				B10A8A5C2788BF220075DAC9 /* Assets.xcassets in Resources */,
-				B10A8A5A2788BF1E0075DAC9 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -406,9 +417,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B10A8A572788BF1E0075DAC9 /* ViewController.swift in Sources */,
+				B10A8AA027898A1B0075DAC9 /* DrawerProtocol.swift in Sources */,
+				B10A8A572788BF1E0075DAC9 /* OnBoardingVC.swift in Sources */,
+				B10A8A85278989D60075DAC9 /* InfiniteScrollingDrawer.swift in Sources */,
+				B10A8AA327898C560075DAC9 /* UIColor+Utils.swift in Sources */,
+				B10A8A9727898A1B0075DAC9 /* JumpDrawer.swift in Sources */,
 				B10A8A532788BF1E0075DAC9 /* AppDelegate.swift in Sources */,
 				B10A8A552788BF1E0075DAC9 /* SceneDelegate.swift in Sources */,
+				B10A8A83278989630075DAC9 /* AdvancedPageControlView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -445,14 +461,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		B10A8A582788BF1E0075DAC9 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				B10A8A592788BF1E0075DAC9 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		B10A8A5D2788BF220075DAC9 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -594,7 +602,7 @@
 				INFOPLIST_FILE = Trashsure/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				IPHONEOS_DEPLOYMENT_TARGET = 14.7;
@@ -607,7 +615,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -625,7 +633,7 @@
 				INFOPLIST_FILE = Trashsure/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				IPHONEOS_DEPLOYMENT_TARGET = 14.7;
@@ -638,7 +646,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
