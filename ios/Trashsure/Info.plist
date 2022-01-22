@@ -4,9 +4,10 @@
 <dict>
 	<key>UIAppFonts</key>
 	<array>
-		<string>Poppins-Bold</string>
-		<string>Poppins-Regular</string>
-		<string>Poppins-Medium</string>
+		<string>Poppins-Bold.ttf</string>
+		<string>Poppins-Regular.ttf</string>
+		<string>Poppins-Medium.ttf</string>
+		<string>Poppins-SemiBold.ttf</string>
 		<string>Alata-Regular.ttf</string>
 	</array>
 	<key>UIApplicationSceneManifest</key>
