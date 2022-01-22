@@ -27,6 +27,12 @@
 		B10A8AAE278993FD0075DAC9 /* Poppins-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = B10A8AAA278993FC0075DAC9 /* Poppins-Regular.ttf */; };
 		B10A8AAF278993FD0075DAC9 /* Poppins-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = B10A8AAB278993FC0075DAC9 /* Poppins-Medium.ttf */; };
 		B10A8AB0278993FD0075DAC9 /* Poppins-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = B10A8AAC278993FD0075DAC9 /* Poppins-Bold.ttf */; };
+		B1886B592796AF3500CE9E2B /* LoginVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1886B582796AF3500CE9E2B /* LoginVC.swift */; };
+		B1886B612796B15C00CE9E2B /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1886B602796B15C00CE9E2B /* LoginView.swift */; };
+		B1AC931A279C521400DA84E7 /* OnBoardCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1AC9319279C521400DA84E7 /* OnBoardCell.swift */; };
+		B1AC931C279C525C00DA84E7 /* UserDefaults+Utils.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1AC931B279C525C00DA84E7 /* UserDefaults+Utils.swift */; };
+		B1AC931E279C543600DA84E7 /* UIFont+Utils.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1AC931D279C543600DA84E7 /* UIFont+Utils.swift */; };
+		B1AC9321279C56A400DA84E7 /* onboarding_users_content.json in Resources */ = {isa = PBXBuildFile; fileRef = B1AC9320279C56A400DA84E7 /* onboarding_users_content.json */; };
 		E6DC279FD4285630A3B4251F /* Pods_TrashsureTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9DC2C6DB95000058D2E2AF6B /* Pods_TrashsureTests.framework */; };
 /* End PBXBuildFile section */
 
@@ -80,6 +86,13 @@
 		B10A8AB32789C70C0075DAC9 /* HomeTabBarController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = HomeTabBarController.swift; path = "../../../../../working/source_code/diabetic-educator-ios/Diabetic Educator/Modules/Home/HomeTabBarController.swift"; sourceTree = "<group>"; };
 		B10A8AB52789CA8D0075DAC9 /* UIViewController+Utils.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIViewController+Utils.swift"; sourceTree = "<group>"; };
 		B10A8AB72789D1250075DAC9 /* PatientsVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PatientsVC.swift; sourceTree = "<group>"; };
+		B1886B582796AF3500CE9E2B /* LoginVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginVC.swift; sourceTree = "<group>"; };
+		B1886B602796B15C00CE9E2B /* LoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
+		B1886B622796B83700CE9E2B /* SecureStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecureStore.swift; sourceTree = "<group>"; };
+		B1AC9319279C521400DA84E7 /* OnBoardCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnBoardCell.swift; sourceTree = "<group>"; };
+		B1AC931B279C525C00DA84E7 /* UserDefaults+Utils.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UserDefaults+Utils.swift"; sourceTree = "<group>"; };
+		B1AC931D279C543600DA84E7 /* UIFont+Utils.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIFont+Utils.swift"; sourceTree = "<group>"; };
+		B1AC9320279C56A400DA84E7 /* onboarding_users_content.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = onboarding_users_content.json; sourceTree = "<group>"; };
 		B7AF3A5815214B29A1F96E6D /* Pods-Trashsure.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Trashsure.release.xcconfig"; path = "Target Support Files/Pods-Trashsure/Pods-Trashsure.release.xcconfig"; sourceTree = "<group>"; };
 		DE2C9BCFD5DC058B97959ED5 /* Pods_Trashsure.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Trashsure.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		F67C8C65194C2714DFBD1ABC /* Pods_Trashsure_TrashsureUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Trashsure_TrashsureUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -161,20 +174,14 @@
 		B10A8A512788BF1E0075DAC9 /* Trashsure */ = {
 			isa = PBXGroup;
 			children = (
-				B10A8A522788BF1E0075DAC9 /* AppDelegate.swift */,
-				B10A8A542788BF1E0075DAC9 /* SceneDelegate.swift */,
-				B10A8A562788BF1E0075DAC9 /* OnBoardingVC.swift */,
-				B10A8AA4278992C70075DAC9 /* OnBoardView.swift */,
 				B10A8A602788BF220075DAC9 /* Info.plist */,
-				B10A8AA227898C560075DAC9 /* UIColor+Utils.swift */,
-				B10A8A9227898A1B0075DAC9 /* DrawerProtocol.swift */,
-				B10A8A84278989D60075DAC9 /* InfiniteScrollingDrawer.swift */,
+				B10A8A522788BF1E0075DAC9 /* AppDelegate.swift */,
 				B10A8AB32789C70C0075DAC9 /* HomeTabBarController.swift */,
-				B10A8AB52789CA8D0075DAC9 /* UIViewController+Utils.swift */,
-				B10A8AA6278993B00075DAC9 /* Resources */,
-				B10A8A8927898A190075DAC9 /* JumpDrawer.swift */,
-				B10A8A82278989630075DAC9 /* AdvancedPageControlView.swift */,
 				B10A8AB72789D1250075DAC9 /* PatientsVC.swift */,
+				B10A8A542788BF1E0075DAC9 /* SceneDelegate.swift */,
+				B1886B5B2796B0DD00CE9E2B /* Helpers */,
+				B1886B5E2796B11D00CE9E2B /* Modules */,
+				B10A8AA6278993B00075DAC9 /* Resources */,
 			);
 			path = Trashsure;
 			sourceTree = "<group>";
@@ -199,6 +206,7 @@
 		B10A8AA6278993B00075DAC9 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
+				B1AC931F279C566600DA84E7 /* Contents */,
 				B10A8A5B2788BF220075DAC9 /* Assets.xcassets */,
 				B10A8A5D2788BF220075DAC9 /* LaunchScreen.storyboard */,
 				B10A8AB1278994890075DAC9 /* Fonts */,
@@ -216,6 +224,74 @@
 				B10A8AA9278993FC0075DAC9 /* Poppins-SemiBold.ttf */,
 			);
 			path = Fonts;
+			sourceTree = "<group>";
+		};
+		B1886B5A2796B0A800CE9E2B /* On Boarding */ = {
+			isa = PBXGroup;
+			children = (
+				B10A8A562788BF1E0075DAC9 /* OnBoardingVC.swift */,
+				B10A8AA4278992C70075DAC9 /* OnBoardView.swift */,
+				B1AC9319279C521400DA84E7 /* OnBoardCell.swift */,
+			);
+			path = "On Boarding";
+			sourceTree = "<group>";
+		};
+		B1886B5B2796B0DD00CE9E2B /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				B1886B5C2796B0F300CE9E2B /* AdvancedPageControl */,
+				B1886B5D2796B10400CE9E2B /* Utils */,
+				B1886B622796B83700CE9E2B /* SecureStore.swift */,
+			);
+			path = Helpers;
+			sourceTree = "<group>";
+		};
+		B1886B5C2796B0F300CE9E2B /* AdvancedPageControl */ = {
+			isa = PBXGroup;
+			children = (
+				B10A8A82278989630075DAC9 /* AdvancedPageControlView.swift */,
+				B10A8A8927898A190075DAC9 /* JumpDrawer.swift */,
+				B10A8A9227898A1B0075DAC9 /* DrawerProtocol.swift */,
+				B10A8A84278989D60075DAC9 /* InfiniteScrollingDrawer.swift */,
+			);
+			path = AdvancedPageControl;
+			sourceTree = "<group>";
+		};
+		B1886B5D2796B10400CE9E2B /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				B10A8AA227898C560075DAC9 /* UIColor+Utils.swift */,
+				B10A8AB52789CA8D0075DAC9 /* UIViewController+Utils.swift */,
+				B1AC931B279C525C00DA84E7 /* UserDefaults+Utils.swift */,
+				B1AC931D279C543600DA84E7 /* UIFont+Utils.swift */,
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
+		B1886B5E2796B11D00CE9E2B /* Modules */ = {
+			isa = PBXGroup;
+			children = (
+				B1886B5A2796B0A800CE9E2B /* On Boarding */,
+				B1886B5F2796B12300CE9E2B /* Auth */,
+			);
+			path = Modules;
+			sourceTree = "<group>";
+		};
+		B1886B5F2796B12300CE9E2B /* Auth */ = {
+			isa = PBXGroup;
+			children = (
+				B1886B582796AF3500CE9E2B /* LoginVC.swift */,
+				B1886B602796B15C00CE9E2B /* LoginView.swift */,
+			);
+			path = Auth;
+			sourceTree = "<group>";
+		};
+		B1AC931F279C566600DA84E7 /* Contents */ = {
+			isa = PBXGroup;
+			children = (
+				B1AC9320279C56A400DA84E7 /* onboarding_users_content.json */,
+			);
+			path = Contents;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -330,6 +406,7 @@
 				B10A8AA8278993D60075DAC9 /* Alata-Regular.ttf in Resources */,
 				B10A8AAD278993FD0075DAC9 /* Poppins-SemiBold.ttf in Resources */,
 				B10A8AB0278993FD0075DAC9 /* Poppins-Bold.ttf in Resources */,
+				B1AC9321279C56A400DA84E7 /* onboarding_users_content.json in Resources */,
 				B10A8A5F2788BF220075DAC9 /* LaunchScreen.storyboard in Resources */,
 				B10A8AAF278993FD0075DAC9 /* Poppins-Medium.ttf in Resources */,
 				B10A8A5C2788BF220075DAC9 /* Assets.xcassets in Resources */,
@@ -466,8 +543,13 @@
 				B10A8AA327898C560075DAC9 /* UIColor+Utils.swift in Sources */,
 				B10A8A9727898A1B0075DAC9 /* JumpDrawer.swift in Sources */,
 				B10A8A532788BF1E0075DAC9 /* AppDelegate.swift in Sources */,
+				B1AC931A279C521400DA84E7 /* OnBoardCell.swift in Sources */,
+				B1AC931E279C543600DA84E7 /* UIFont+Utils.swift in Sources */,
+				B1AC931C279C525C00DA84E7 /* UserDefaults+Utils.swift in Sources */,
+				B1886B592796AF3500CE9E2B /* LoginVC.swift in Sources */,
 				B10A8A552788BF1E0075DAC9 /* SceneDelegate.swift in Sources */,
 				B10A8A83278989630075DAC9 /* AdvancedPageControlView.swift in Sources */,
+				B1886B612796B15C00CE9E2B /* LoginView.swift in Sources */,
 				B10A8AA5278992C70075DAC9 /* OnBoardView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
